@@ -7,13 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Web UI", "0 - Web UI", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{B7C7BC0B-00B2-46F2-B41F-8062269880C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeusLivros.API", "MeusLivros.API\MeusLivros.API.csproj", "{BEB2D217-0471-462F-B669-4ECD00C97DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeusLivros.API", "MeusLivros.API\MeusLivros.API.csproj", "{BEB2D217-0471-462F-B669-4ECD00C97DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeusLivros.Dominio", "MeusLivros.Dominio\MeusLivros.Dominio.csproj", "{41A884E3-38C8-4576-8BB4-787036D225AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeusLivros.Dominio", "MeusLivros.Dominio\MeusLivros.Dominio.csproj", "{41A884E3-38C8-4576-8BB4-787036D225AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeusLivros.Infra", "MeusLivros.Infra\MeusLivros.Infra.csproj", "{5C6D7025-C68E-4B17-8BEE-B67A067C46CD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeusLivros.WebUI", "MeusLivros.WebUI\MeusLivros.WebUI.csproj", "{3774C90F-7546-44CE-AD08-36BE73276EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeusLivros.Infra", "MeusLivros.Infra\MeusLivros.Infra.csproj", "{5C6D7025-C68E-4B17-8BEE-B67A067C46CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +31,6 @@ Global
 		{5C6D7025-C68E-4B17-8BEE-B67A067C46CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C6D7025-C68E-4B17-8BEE-B67A067C46CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C6D7025-C68E-4B17-8BEE-B67A067C46CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3774C90F-7546-44CE-AD08-36BE73276EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3774C90F-7546-44CE-AD08-36BE73276EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3774C90F-7546-44CE-AD08-36BE73276EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3774C90F-7546-44CE-AD08-36BE73276EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,7 +39,6 @@ Global
 		{BEB2D217-0471-462F-B669-4ECD00C97DBF} = {B7C7BC0B-00B2-46F2-B41F-8062269880C9}
 		{41A884E3-38C8-4576-8BB4-787036D225AD} = {B7C7BC0B-00B2-46F2-B41F-8062269880C9}
 		{5C6D7025-C68E-4B17-8BEE-B67A067C46CD} = {B7C7BC0B-00B2-46F2-B41F-8062269880C9}
-		{3774C90F-7546-44CE-AD08-36BE73276EAE} = {205EC83F-8BE1-4C04-AA27-5C790824A0F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50C300E6-41AA-47B1-9596-798924D49E6E}
